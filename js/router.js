@@ -8,7 +8,6 @@ const ROUTES = {
   'presentacion': 'presentacion.html',
   'resumen-mensual': 'resumen-mensual.html',
   'hoy': 'hoy.html',
-  'resumen': 'resumen.html',
   'cantidades': 'cantidades.html',
   'impacto': 'impacto.html',
   'talleres': 'talleres.html'

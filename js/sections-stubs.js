@@ -1,5 +1,5 @@
 window.Sections = window.Sections || {};
-['presentacion','resumen-mensual','resumen','talleres'].forEach(route => {
+['presentacion','resumen-mensual','talleres'].forEach(route => {
   if(window.Sections[route]) return;
   window.Sections[route] = {
     init(){ document.body.dataset.route = route; },
