@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiroga CRPC – Estadísticas 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/layout.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/print.css" />
+</head>
+<body>
+
+  <div class="intro-overlay no-print" id="introOverlay">
+    <div class="intro-logo-circle">Q</div>
+    <div class="intro-text">
+      <span class="intro-title">QUIROGA GNC</span>
+      <span class="intro-sub">CRPC · ESTADÍSTICAS 2026</span>
+    </div>
+  </div>
+
+  <div class="top-nav no-print">
+    <div class="top-nav-inner">
+      <div class="brand">
+        <div class="brand-logo">Q</div>
+        <div class="brand-text">
+          <div class="brand-title">QUIROGA GNC</div>
+          <div class="brand-sub">CRPC · ESTADÍSTICAS 2026</div>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#hoy" data-route="hoy">Hoy</a>
+        <a href="#resumen-mensual" data-route="resumen-mensual">Último mes</a>
+        <a href="#resumen" data-route="resumen">Anual</a>
+        <a href="#cantidades" data-route="cantidades">Cantidades</a>
+        <a href="#impacto" data-route="impacto">Impacto</a>
+        <a href="#talleres" data-route="talleres">Talleres</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="page">
+    <div id="app"></div>
+  </main>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

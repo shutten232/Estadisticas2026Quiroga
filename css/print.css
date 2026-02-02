@@ -1,0 +1,7 @@
+.no-print{}
+@media print{
+  body *{ visibility:hidden; }
+  #historial-print, #historial-print *{ visibility:visible; }
+  #historial-print{ position:absolute; left:0; top:0; width:100%; }
+  .no-print{ display:none !important; }
+}
